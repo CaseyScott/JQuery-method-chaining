@@ -10,12 +10,12 @@ $(document).ready(function() {
     });
 
     $("button").click(function() {
-        $("#para1").slideUp("slow", function() {});
+        $("p").slideToggle(1000);
     });
 
-    $("button").click(function() {
-        $("#para1").slideDown("slow", function() {});
-    });
+   /* $("button").click(function(){
+        $("p").hide(1000).show(1000);
+    })*/
 
 
 });
