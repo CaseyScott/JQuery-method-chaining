@@ -18,8 +18,8 @@ $(document).ready(function() {
     });
 
     $("#button1").click(function() {
-        $("#para1").fadeOut(1000).fadeIn(1000)
-    })
+        $("#para1").fadeOut(1000).fadeIn(1000);
+    });
 
     $("#button2").click(function() {
         $("#para2").slideToggle(1000);
